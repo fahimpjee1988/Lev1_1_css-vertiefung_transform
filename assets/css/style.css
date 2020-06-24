@@ -1,0 +1,19 @@
+
+section div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition:all 2s ease;
+    margin:35% auto;
+    
+}
+
+div:hover{
+    background:blue;
+    transform: rotateZ(90deg) ;
+    margin: 45%;
+    border-radius: 4px;
+    width:150px;
+    height:150px;
+}
+
